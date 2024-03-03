@@ -82,6 +82,15 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 #### Profile
 <img src="Screenshots/MyProfile.png" width="200">
 
+#### How to use App #1
+<img src="Screenshots/howto1.png" width="200">
+
+#### How to use App #2
+<img src="Screenshots/howto2.png" width="200">
+
+#### How to use App #3
+<img src="Screenshots/howto3.png" width="200">
+
 ## Requirements
 
 - Android device running Android 5.0 (Lollipop) or higher.
