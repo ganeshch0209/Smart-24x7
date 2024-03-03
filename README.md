@@ -73,6 +73,9 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 #### Delete Contacts
 <img src="Screenshots/deletecontactsUI.png" width="200">
 
+#### Helpline Dashboard
+<img src="Screenshots/helpline.png" width="200">
+
 ## Requirements
 
 - Android device running Android 5.0 (Lollipop) or higher.
