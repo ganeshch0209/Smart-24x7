@@ -61,6 +61,9 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 #### Firebase Authentication
 <img src="Screenshots/forgotpassUI.png" width="200">
 
+#### Dashboard
+<img src="Screenshots/dashboard.png" width="200">
+
 
 ## Requirements
 
