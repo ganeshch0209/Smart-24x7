@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.msayan:tutorial-view:v1.0.10@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/749a9cb057c79d5a0219fb155d62ed6e/jetified-tutorial-view-v1.0.10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/749a9cb057c79d5a0219fb155d62ed6e/jetified-tutorial-view-v1.0.10/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/749a9cb057c79d5a0219fb155d62ed6e/jetified-tutorial-view-v1.0.10/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.msayan/tutorial-view/v1.0.10/a8d31dc7455304fad76bd1bfec03803daf53e52e/tutorial-view-v1.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
