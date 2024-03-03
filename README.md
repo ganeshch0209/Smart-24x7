@@ -43,8 +43,8 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 
 ## Screenshots
 
-#### Emergency Trigger
-![Emergency Trigger](Screenshots/splashscreen.png)
+<img src="Screenshots/splashscreen.png" width="500">
+<img src="Screenshots/registration.png" width="500">
 
 ## Requirements
 
