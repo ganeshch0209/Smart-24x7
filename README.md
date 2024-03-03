@@ -50,7 +50,7 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 <img src="Screenshots/registration.png" width="200">
 
 #### Storing User Profile
-<img src="Screenshots/Storing-UserProfile.png" width="200">
+<img src="Screenshots/Storing-UserProfile.png" width="500">
 
 ## Requirements
 
