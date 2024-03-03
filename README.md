@@ -43,11 +43,16 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 
 ## Screenshots
 
-#### Splash Screen
-<img src="Screenshots/splashscreen.png" height="500">
-
-#### Registration
-<img src="Screenshots/registration.png" height="500">
+<div style="display: flex; justify-content: space-between;">
+    <div style="text-align: center;">
+        <h3>Splash Screen</h3>
+        <img src="Screenshots/splashscreen.png" width="400">
+    </div>
+    <div style="text-align: center;">
+        <h3>Registration</h3>
+        <img src="Screenshots/registration.png" width="400">
+    </div>
+</div>
 
 ## Requirements
 
