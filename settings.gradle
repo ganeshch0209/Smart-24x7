@@ -1,0 +1,2 @@
+rootProject.name='smart24x7'
+include ':app'

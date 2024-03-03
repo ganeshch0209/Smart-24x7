@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRelative"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@id/textView3"
+            app:srcCompat="@drawable/splashicon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_centerVertical="true"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:text="Smart 24x7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Add Relative"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal"
+            android:hint="Name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal"
+            android:hint="Phone Number"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:text="Add Contacts"
+            android:layout_marginTop="200dp"
+            android:background="#CC0059"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_toRightOf="@+id/btnAdd"
+            android:background="#CC0059"
+            android:text=" View Contacts "
+            android:textColor="#FFFFFF"
+            />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="130dp"
+            android:background="#CC0059"
+            android:text="Delete Contacts"
+            android:textColor="#FFFFFF"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

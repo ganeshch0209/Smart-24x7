@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1081354981039",
+    "project_id": "smart24x7-712a1",
+    "storage_bucket": "smart24x7-712a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081354981039:android:2461bc59da2ce61e278e5a",
+        "android_client_info": {
+          "package_name": "com.example.smart24x7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081354981039-05csqod2vc55eqqi5cvm3438cjdto8nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5hCea5N4PPYhM5ftytIdrK5OPMJ8OVc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081354981039-05csqod2vc55eqqi5cvm3438cjdto8nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
