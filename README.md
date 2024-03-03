@@ -61,8 +61,7 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 1. Launch the app after installation.
 2. Register a new account or log in with an existing account.
 3. Add emergency contacts to the app.
-4. Configure settings such as shake sensitivity and emergency message.
-5. Use the shake gesture or helpline call feature in case of emergencies.
+4. Use the shake gesture or helpline call feature in case of emergencies.
 
 ## Contributors
 
