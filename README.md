@@ -58,6 +58,9 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 #### Firebas Authentication
 <img src="Screenshots/firebase.png" width="500">
 
+#### Dashboard
+<img src="Screenshots/dashboard.png" width="200">
+
 ## Requirements
 
 - Android device running Android 5.0 (Lollipop) or higher.
