@@ -59,7 +59,7 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 <img src="Screenshots/1.registration.png" alt="Registration" style="width:150px;" /><br><br>
 
 <p>Storing User Profile in Firestore</p>
-<img src="Screenshots/3.Storing-UserProfile.png" alt="Storing User Profile in Firestore" style="width:150px;" /><br><br>
+<img src="Screenshots/3.Storing-UserProfile.png" alt="Storing User Profile in Firestore" style="width:300px;" /><br><br>
 
 <p>Login</p>
 <img src="Screenshots/4.login.png" alt="Login" style="width:150px;" /><br><br>
@@ -68,7 +68,7 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 <img src="Screenshots/5.forgotpassUI.png" alt="Forgot Password" style="width:150px;" /><br><br>
 
 <p>Firebase Authentication</p>
-<img src="Screenshots/6.firebase.png" alt="Firebase Authentication" style="width:150px;" /><br><br>
+<img src="Screenshots/6.firebase.png" alt="Firebase Authentication" style="width:300px;" /><br><br>
 
 <p>Dashboard</p>
 <img src="Screenshots/7.dashboard.png" alt="Dashboard" style="width:150px;" /><br><br>
