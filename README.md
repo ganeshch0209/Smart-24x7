@@ -1,4 +1,4 @@
-# Smart24x7 Emergency
+# Smart24x7 - ##A Woman Safety App for SOS situations.
 
 ## Overview
 Smart24x7 is an Android application designed to provide emergency assistance to users in distress situations. The app allows users to send their location details and distress messages to pre-registered contacts, along with providing quick access to helpline numbers for various emergencies.
