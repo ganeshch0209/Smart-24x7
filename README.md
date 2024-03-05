@@ -52,22 +52,22 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 
 ## Screenshots
 
-![Splash Screen](Screenshots/splash_screen.png)
-![Registration](Screenshots/registration.png)
-![Storing User Profile in Firestore](Screenshots/storing_user_profile.png)
-![Login](Screenshots/login.png)
-![Forgot Password](Screenshots/forgot_password.png)
-![Firebase Authentication](Screenshots/firebase_authentication.png)
-![Dashboard](Screenshots/dashboard.png)
-![Add Relative](Screenshots/add_relative.png)
-![View Contacts](Screenshots/view_contacts.png)
-![Delete Contacts](Screenshots/delete_contacts.png)
-![Helpline Dashboard](Screenshots/helpline_dashboard.png)
-![Dialer prompt after Pressing Button on Helpline](Screenshots/dialer_prompt.png)
-![Profile](Screenshots/profile.png)
-![How to use App #1](Screenshots/how_to_use_1.png)
-![How to use App #2](Screenshots/how_to_use_2.png)
-![How to use App #3](Screenshots/how_to_use_3.png)
+![Splash Screen](Screenshots/0.splashscreen.png)
+![Registration](Screenshots/1.registration.png)
+![Storing User Profile in Firestore](Screenshots/3.Storing-UserProfile.png)
+![Login](Screenshots/4.login.png)
+![Forgot Password](Screenshots/5.forgotpassUI.png)
+![Firebase Authentication](Screenshots/6.firebase.png)
+![Dashboard](Screenshots/7.dashboard.png)
+![Add Relative](Screenshots/8.addcontact.png)
+![View Contacts](Screenshots/9.viewcontacts.png)
+![Delete Contacts](Screenshots/10.deletecontactsUI.png)
+![Helpline Dashboard](Screenshots/10.helpline.png)
+![Dialer prompt after Pressing Button on Helpline](Screenshots/11.dialerexample.png)
+![Profile](Screenshots/13.MyProfile.png)
+![How to use App #1](Screenshots/14.howto1.png)
+![How to use App #2](Screenshots/15.howto2.png)
+![How to use App #3](Screenshots/16.howto3.png)
 
 ## Requirements
 
