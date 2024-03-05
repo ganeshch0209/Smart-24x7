@@ -1,4 +1,4 @@
-# Smart24x7 
+# Smart24x7 - A Woman Safety App for SOS situations.
 
 ## Overview
 Smart24x7 is an Android application designed to provide emergency assistance to users in distress situations. The app allows users to send their location details and distress messages to pre-registered contacts, along with providing quick access to helpline numbers for various emergencies.
@@ -46,6 +46,8 @@ To use the Smart24x7 app, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the project in Android Studio.
 3. Build and run the project on an Android device or emulator.
+4. Alternatively, you can download the APK file from the [Releases](https://github.com/ganeshch0209/Smart-24x7/releases/tag/v1.0.0) section
+   and install it on your Android device.
 
 ## Usage
 1. Upon launching the app, users are prompted to register or log in.
