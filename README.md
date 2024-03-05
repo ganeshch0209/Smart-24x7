@@ -1,67 +1,98 @@
-# Smart24x7 - A Woman Safety App for SOS situations.
+# Smart24x7 Women's Safety App
 
 ## Overview
-Smart24x7 is an Android application designed to provide emergency assistance to users in distress situations. The app allows users to send their location details and distress messages to pre-registered contacts, along with providing quick access to helpline numbers for various emergencies.
 
-## Project Structure
+Smart24x7 Women's Safety App is a mobile application designed to provide women with a sense of security and quick access to assistance in times of distress. The app offers various features tailored to enhance the safety of women, including emergency triggers, helpline calls, contact management, and more. Developed for Android devices, this app aims to empower women by providing them with a reliable tool for emergency situations.
 
-### Java Files
+## Features
 
-- **AddRelative.java**: Activity for adding emergency contacts.
-- **DatabaseHelper.java**: Helper class for database operations.
-- **DeleteContacts.java**: Activity for deleting emergency contacts.
-- **ForgotPassword.java**: Activity for resetting password via email.
-- **helplineCall.java**: Activity for calling helpline numbers.
-- **HowToSwipe.java**: Activity displaying a tutorial on how to use the app.
-- **Login.java**: Activity for user login.
-- **MainActivity.java**: Main activity of the app, containing the main functionality.
-- **MyModel.java**: Model class representing user data.
-- **MyProfile.java**: Activity for viewing and updating user profile information.
-- **Registration.java**: Activity for user registration.
-- **SendMessage.java**: Utility class for sending emergency SMS messages.
-- **Splash.java**: Splash screen activity displayed upon app launch.
-- **TrigActivity.java**: Activity for triggering emergency alerts.
-- **ViewListContents.java**: Activity for viewing emergency contacts.
+### Emergency Trigger
 
-### XML Layout Files
+- Empowers users to trigger an emergency alert by shaking their device.
+- Upon activation, the app sends an SMS containing the user's location details to designated emergency contacts.
 
-- **activity_add_relative.xml**: Layout file for adding a relative contact.
-- **activity_delete_contacts.xml**: Layout file for deleting contacts.
-- **activity_forgot_password.xml**: Layout file for password recovery.
-- **activity_helpline_call.xml**: Layout file for displaying helpline contacts.
-- **activity_how_to_swipe.xml**: Layout file for displaying instructions on how to use swipe gestures.
-- **activity_login.xml**: Layout file for user login.
-- **activity_main.xml**: Main layout file for the home screen.
-- **activity_my_profile.xml**: Layout file for displaying user profile information.
-- **activity_registration.xml**: Layout file for user registration.
-- **activity_splash.xml**: Layout file for the splash screen.
-- **activity_trig.xml**: Layout file for triggers.
-- **viewlistcontents_layout.xml**: Layout file for displaying the contents of a list.
+### Helpline Call
 
+- Offers direct access to emergency helpline numbers such as police, ambulance, and distress helpline.
+- Allows users to make emergency calls to selected helpline numbers directly from within the app.
 
-### Additional Resources
+### User Registration
 
-- **drawable/**: Directory containing drawable resources such as icons and images.
-- **menu/**: Directory containing menu resources for the app.
-- **values/**: Directory containing resource files for strings, colors, dimensions, etc.
+- Enables new users to register by providing essential details such as full name, email, password, and phone number.
+- Registration data is securely stored in the Firebase Firestore database for user authentication and profile management.
+
+### Contact Management
+
+- Facilitates users in adding and managing family and friends' phone numbers in the app's contact list.
+- These contacts are promptly notified via SMS in case of an emergency trigger initiated by the user.
+
+### View Contacts
+
+- Provides users with a comprehensive view of the contacts added to the app, ensuring quick access to critical contacts.
+
+### User Profile
+
+- Allows users to view and edit their profile details, including full name, email, and phone number.
+- Profile information is seamlessly integrated from the Firebase Firestore database, ensuring up-to-date user data.
+
+### Splash Screen
+
+- Introduces users to the app's features and functionality.
+- Requests necessary permissions, such as location and SMS, to ensure the smooth operation of the app.
+
+### Database Integration
+
+- Utilizes SQLite database for local storage and management of contact details.
+- Firebase Firestore database is employed for user authentication, profile management, and data synchronization.
+
+### Responsive UI
+
+- Delivers a user-friendly interface with intuitive navigation tailored to meet the needs of women users.
+- Supports various screen sizes and orientations for enhanced accessibility.
+
+## Screenshots
+
+![Splash Screen](Screenshots/splash_screen.png)
+![Registration](Screenshots/registration.png)
+![Storing User Profile in Firestore](Screenshots/storing_user_profile.png)
+![Login](Screenshots/login.png)
+![Forgot Password](Screenshots/forgot_password.png)
+![Firebase Authentication](Screenshots/firebase_authentication.png)
+![Dashboard](Screenshots/dashboard.png)
+![Add Relative](Screenshots/add_relative.png)
+![View Contacts](Screenshots/view_contacts.png)
+![Delete Contacts](Screenshots/delete_contacts.png)
+![Helpline Dashboard](Screenshots/helpline_dashboard.png)
+![Dialer prompt after Pressing Button on Helpline](Screenshots/dialer_prompt.png)
+![Profile](Screenshots/profile.png)
+![How to use App #1](Screenshots/how_to_use_1.png)
+![How to use App #2](Screenshots/how_to_use_2.png)
+![How to use App #3](Screenshots/how_to_use_3.png)
+
+## Requirements
+
+- Android device running Android 5.0 (Lollipop) or higher.
+- Internet connection for Firebase authentication and data synchronization.
 
 ## Installation
-To use the Smart24x7 app, follow these steps:
-1. Clone the repository to your local machine.
-2. Open the project in Android Studio.
-3. Build and run the project on an Android device or emulator.
-4. Alternatively, you can download the APK file from the [Releases](https://github.com/ganeshch0209/Smart-24x7/releases/tag/v1.0.0) section
-   and install it on your Android device.
+
+- Download the APK file from the provided link.
+- Enable installation from unknown sources in your device settings.
+- Open the APK file and follow the on-screen instructions to install the app.
 
 ## Usage
-1. Upon launching the app, users are prompted to register or log in.
-2. After registration/login, users can access the main features of the app:
-   - Trigger emergency alerts by shaking the device.
-   - Access helpline numbers for various emergencies.
-   - Manage user profile and registered contacts.
+
+- Launch the app after installation.
+- Register a new account or log in with an existing account.
+- Add emergency contacts to the app.
+- Use the shake gesture or helpline call feature in case of emergencies.
 
 ## Contributors
-- [Ganesh](https://github.com/ganeshch0209)
+
+- Ganesh Ch
+- Meghana S
+- Parimala G
 
 ## License
+
 This project is licensed under the MIT License.
