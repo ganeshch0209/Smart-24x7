@@ -52,22 +52,23 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 
 ## Screenshots
 
-![Splash Screen](Screenshots/0.splashscreen.png)
-![Registration](Screenshots/1.registration.png)
-![Storing User Profile in Firestore](Screenshots/3.Storing-UserProfile.png)
-![Login](Screenshots/4.login.png)
-![Forgot Password](Screenshots/5.forgotpassUI.png)
-![Firebase Authentication](Screenshots/6.firebase.png)
-![Dashboard](Screenshots/7.dashboard.png)
-![Add Relative](Screenshots/8.addcontact.png)
-![View Contacts](Screenshots/9.viewcontacts.png)
-![Delete Contacts](Screenshots/10.deletecontactsUI.png)
-![Helpline Dashboard](Screenshots/10.helpline.png)
-![Dialer prompt after Pressing Button on Helpline](Screenshots/11.dialerexample.png)
-![Profile](Screenshots/13.MyProfile.png)
-![How to use App #1](Screenshots/14.howto1.png)
-![How to use App #2](Screenshots/15.howto2.png)
-![How to use App #3](Screenshots/16.howto3.png)
+<img src="Screenshots/0.splashscreen.png" alt="Splash Screen" width="150">
+<img src="Screenshots/1.registration.png" alt="Registration" width="150">
+<img src="Screenshots/3.Storing-UserProfile.png" alt="Storing User Profile in Firestore" width="150">
+<img src="Screenshots/4.login.png" alt="Login" width="150">
+<img src="Screenshots/5.forgotpassUI.png" alt="Forgot Password" width="150">
+<img src="Screenshots/6.firebase.png" alt="Firebase Authentication" width="150">
+<img src="Screenshots/7.dashboard.png" alt="Dashboard" width="150">
+<img src="Screenshots/8.addcontact.png" alt="Add Relative" width="150">
+<img src="Screenshots/9.viewcontacts.png" alt="View Contacts" width="150">
+<img src="Screenshots/10.deletecontactsUI.png" alt="Delete Contacts" width="150">
+<img src="Screenshots/10.helpline.png" alt="Helpline Dashboard" width="150">
+<img src="Screenshots/11.dialerexample.png" alt="Dialer prompt after Pressing Button on Helpline" width="150">
+<img src="Screenshots/13.MyProfile.png" alt="Profile" width="150">
+<img src="Screenshots/14.howto1.png" alt="How to use App #1" width="150">
+<img src="Screenshots/15.howto2.png" alt="How to use App #2" width="150">
+<img src="Screenshots/16.howto3.png" alt="How to use App #3" width="150">
+
 
 ## Requirements
 
