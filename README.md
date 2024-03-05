@@ -23,17 +23,21 @@ Smart24x7 is an Android application designed to provide emergency assistance to 
 - **TrigActivity.java**: Activity for triggering emergency alerts.
 - **ViewListContents.java**: Activity for viewing emergency contacts.
 
-### Layout Files
+### XML Layout Files
 
-- **activity_helpline_call.xml**: Layout file for helplineCall activity.
-- **activity_how_to_swipe.xml**: Layout file for HowToSwipe activity.
-- **activity_login.xml**: Layout file for Login activity.
-- **activity_main.xml**: Layout file for MainActivity activity.
-- **activity_my_profile.xml**: Layout file for MyProfile activity.
-- **activity_registration.xml**: Layout file for Registration activity.
-- **activity_splash.xml**: Layout file for Splash activity.
-- **activity_trig.xml**: Layout file for TrigActivity activity.
-- **viewlistcontents_layout.xml**: Layout file for ViewListContents activity.
+- **activity_add_relative.xml**: Layout file for adding a relative contact.
+- **activity_delete_contacts.xml**: Layout file for deleting contacts.
+- **activity_forgot_password.xml**: Layout file for password recovery.
+- **activity_helpline_call.xml**: Layout file for displaying helpline contacts.
+- **activity_how_to_swipe.xml**: Layout file for displaying instructions on how to use swipe gestures.
+- **activity_login.xml**: Layout file for user login.
+- **activity_main.xml**: Main layout file for the home screen.
+- **activity_my_profile.xml**: Layout file for displaying user profile information.
+- **activity_registration.xml**: Layout file for user registration.
+- **activity_splash.xml**: Layout file for the splash screen.
+- **activity_trig.xml**: Layout file for triggers.
+- **viewlistcontents_layout.xml**: Layout file for displaying the contents of a list.
+
 
 ### Additional Resources
 
