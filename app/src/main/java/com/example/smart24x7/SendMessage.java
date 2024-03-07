@@ -49,54 +49,56 @@ public class SendMessage {
 
         // Request location updates
         locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
-        locationListener = new MyLocationListener();
+        locationListener = new MyLocationListener(locationManager, dataList);
         if (locationManager != null) {
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
         } else {
             Toast.makeText(context, "Location manager unavailable", Toast.LENGTH_SHORT).show();
         }
-
-        // Iterate over the dataList to send messages to each number
-        for (MyModel model : dataList) {
-            String phoneNumber = model.getPhoneNo();
-            sendMessageToNumber(phoneNumber);
-        }
-    }
-
-    private void sendMessageToNumber(String phoneNumber) {
-        SmsManager smsManager = SmsManager.getDefault();
-        String locationUrl = "https://www.google.com/maps/search/?api=1&query=" + MyLocationListener.latitude + "," + MyLocationListener.longitude;
-        String smsText = message + "\n" + locationUrl;
-        smsManager.sendTextMessage(phoneNumber, null, smsText, null, null);
-        Toast.makeText(context, "Message sent", Toast.LENGTH_LONG).show();
     }
 
     private class MyLocationListener implements LocationListener {
-        public static double latitude;
-        public static double longitude;
+        private LocationManager locationManager;
+        private List<MyModel> dataList;
+
+        private void sendMessageToNumbers(double latitude, double longitude) {
+            for (MyModel model : dataList) {
+                String phoneNumber = model.getPhoneNo();
+                SmsManager smsManager = SmsManager.getDefault();
+                String locationUrl = "https://www.google.com/maps/search/?api=1&query=" + latitude + "," + longitude;
+                String smsText = message + "\n" + locationUrl;
+                smsManager.sendTextMessage(phoneNumber, null, smsText, null, null);
+            }
+            Toast.makeText(context, "Messages sent", Toast.LENGTH_SHORT).show();
+        }
+
+        public MyLocationListener(LocationManager locationManager, List<MyModel> dataList) {
+            this.locationManager = locationManager;
+            this.dataList = dataList;
+        }
 
         @Override
         public void onLocationChanged(Location location) {
             if (location != null) {
-                latitude = location.getLatitude();
-                longitude = location.getLongitude();
+                double latitude = location.getLatitude();
+                double longitude = location.getLongitude();
                 // Remove location updates after retrieving the current location
-                if (locationManager != null && locationListener != null) {
-                    locationManager.removeUpdates(locationListener);
+                if (locationManager != null) {
+                    locationManager.removeUpdates(this);
                 }
+                sendMessageToNumbers(latitude, longitude);
             }
         }
 
         @Override
-        public void onStatusChanged(String provider, int status, Bundle extras) {
-        }
+        public void onStatusChanged(String provider, int status, Bundle extras) {}
 
         @Override
-        public void onProviderEnabled(String provider) {
-        }
+        public void onProviderEnabled(String provider) {}
 
         @Override
-        public void onProviderDisabled(String provider) {
-        }
+        public void onProviderDisabled(String provider) {}
+
+
     }
 }
