@@ -88,6 +88,9 @@ Smart24x7 Women's Safety App is a mobile application designed to provide women w
 <p>Dialer prompt after Pressing Button on Helpline</p>
 <img src="Screenshots/11.dialerexample.png" alt="Dialer prompt after Pressing Button on Helpline" style="width:150px;" /><br><br>
 
+<p>Trigger</p>
+<img src="Screenshots/12.trigger.png" alt="Trigger" style="width:150px;" /><br><br>
+
 <p>Profile</p>
 <img src="Screenshots/13.MyProfile.png" alt="Profile" style="width:150px;" /><br><br>
 
